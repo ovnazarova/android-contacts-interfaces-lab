@@ -216,7 +216,8 @@ public class MainActivity extends AppCompatActivity implements OnDebounceListene
     }
 
     @Override
-    public void OnDebounce() {
+    public void onDebounce() {
         viewModel.search();
     }
+
 }
